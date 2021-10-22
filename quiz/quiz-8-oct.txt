@@ -1,0 +1,17 @@
+6310400967
+
+(`x*` where * is node, x is height)
+
+      4*
+      / \
+     /   \
+    /     \
+  1*      3*
+  / \     / \
+0*  0*  2*  1*
+        / \   \
+      0*  1*  0*
+          / \
+        0*  0*
+
+Since this tree has sub-threes that differ in height more than 1 (|1 - 3| = 2), this three doesn't have AVL property.
